@@ -1,0 +1,17 @@
+const express = require("express");
+const articlesController = require("./articles.controller");
+const authMiddleware = require("../../middlewares/auth"); 
+
+const router = express.Router();
+
+console.log("articlesController.create:", articlesController.create);
+console.log("articlesController.update:", articlesController.update);
+console.log("articlesController.delete:", articlesController.delete);
+
+router.get("/", articlesController.getAll);
+router.get("/:id", articlesController.getById);
+router.post("/", authMiddleware, articlesController.create); 
+router.put("/:id", authMiddleware, articlesController.update); 
+router.delete("/:id", authMiddleware, articlesController.delete); 
+
+module.exports = router;
