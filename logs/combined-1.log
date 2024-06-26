@@ -446,3 +446,9 @@ Error: bind EADDRINUSE null:8080
 2024-06-26 17:20 +02:00: articlesController.create: [AsyncFunction: create]
 2024-06-26 17:20 +02:00: articlesController.update: [AsyncFunction: update]
 2024-06-26 17:20 +02:00: articlesController.delete: [AsyncFunction: delete]
+2024-06-26 17:20 +02:00: articlesController.create: [AsyncFunction: create]
+2024-06-26 17:20 +02:00: articlesController.update: [AsyncFunction: update]
+2024-06-26 17:20 +02:00: articlesController.delete: [AsyncFunction: delete]
+2024-06-26 17:20 +02:00: app running
+2024-06-26 17:20 +02:00: Database connected
+2024-06-26 17:20 +02:00: a user connected
